@@ -13,12 +13,13 @@ import (
 	"archive/zip"
 	"encoding/xml"
 	"fmt"
-	"listgen/internal/config"
-	"listgen/internal/tree"
 	"os"
 	"path/filepath"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/MaxRomanov007/listgen/internal/config"
+	"github.com/MaxRomanov007/listgen/internal/tree"
 )
 
 // ─── Public entry point ───────────────────────────────────────────────────────

@@ -4,10 +4,11 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"listgen/internal/config"
-	"listgen/internal/generator"
-	"listgen/internal/scanner"
 	"os"
+
+	"github.com/MaxRomanov007/listgen/internal/config"
+	"github.com/MaxRomanov007/listgen/internal/generator"
+	"github.com/MaxRomanov007/listgen/internal/scanner"
 )
 
 const usage = `Usage:

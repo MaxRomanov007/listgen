@@ -1,4 +1,4 @@
-module listgen
+module github.com/MaxRomanov007/listgen
 
 go 1.26
 
